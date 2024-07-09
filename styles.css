@@ -62,11 +62,35 @@ body {
     gap: 10px;
 }
 .top__main {
-    flex: 1;
+    flex: 2;
     background-color: lightblue;
 }
 .bottom__main {
     flex: 8;
     background-color: lightgreen;
+    display: flex;
+    flex-direction: row;
+    height: 100vh; /* Adjust the height as needed */
 }
 
+.project_name {
+    flex: 3;
+    background-color: rgb(230, 230, 173); /* Optional: for visualization */
+    
+}
+
+.announcement_trending {
+    flex: 1;
+    background-color: lightcoral; /* Optional: for visualization */
+    display: flex;
+    flex-direction: column;
+}
+
+.announcements {
+    flex: 1;
+    background-color: lightgreen; /* Optional: for visualization */
+}
+.trending {
+    flex: 1;
+    background-color: lightyellow; /* Optional: for visualization */
+}
