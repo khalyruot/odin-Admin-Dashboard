@@ -118,13 +118,14 @@ body {
 
 .top_main {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 2fr;
     gap: 10px; /* Adjust the gap between the divs if needed */
 }
 
 .top_main_left{
     background-color: lightblue;
     padding: 20px;
+    
 }
 
 .top_main_right{
@@ -132,11 +133,54 @@ body {
     padding: 20px;
 }
 
+.account_name{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.search_box{
+    padding: 20px;;
+}
+
+.fa{
+    padding-right: 20px;
+}
+
 .search-box {
     height: 40px;
-    width: 800px;
+    width: 600px;
     padding: 0;
     margin: 0;
+    border-radius: 10px;
+
+}
+
+.home_name{
+    padding-top: 40px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    margin-right: 20px;
+}
+
+.image-container img {
+width: 90px;
+height: 90px;
+border-radius: 40%; /* Makes the image circular */
+object-fit: cover;
+}
+
+.hi_there{
+    font-size: 20px;
+    color: black;
+}
+
+.morgan_oakly{
+    font-size: 40px;
+    color:black;
 }
 
 .buttons-container {
@@ -169,11 +213,6 @@ ul li{
 p{
     font-size: 30px;
     color: white;
-}
-
-h{
-    font-size: 30px;
-    color: black;
 }
 
 h1{
