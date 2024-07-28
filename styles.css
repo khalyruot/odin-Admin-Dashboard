@@ -102,22 +102,31 @@ body {
 
 .projects-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px; /* Adjust the gap between divs as needed */
-}
-.project {
-    flex: 1 1 calc(50% - 10px); /* Adjust to fit 2 divs horizontally with gap */
-    box-sizing: border-box;
-    padding: 20px;
-    margin-left: 5px 0; /* Vertical margin for better spacing */
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
-    background-color: #f9f9f9; /* Background color for better visibility */
-    height: 200px;
+    grid-template-columns: 1fr 1fr;
 }
 
+.project_1_left{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 1px solid black;
+    width: 550px;
+
+}
+
+.project_1_right{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 1px solid black;
+    width: 600px;
+}
+
+.project{
+    height: 220px;
+    border: 1px solid blue;
+    margin: 5px;
+}
 .top_main {
     display: grid;
     grid-template-columns: 4fr 2fr;
@@ -263,7 +272,7 @@ h3{
 
 .justify_text{
     text-align: justify;
-    width: 400px;
+    width: 500px;
 }
 
 
