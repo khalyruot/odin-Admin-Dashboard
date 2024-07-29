@@ -123,7 +123,7 @@ body {
 }
 
 .project{
-    height: 220px;
+    height: 210px;
     border: 1px solid blue;
     margin: 5px;
 }
@@ -259,9 +259,11 @@ h3{
 }
 
 .icon_container {
+    border: 1px solid blue;
     display: flex;
-    margin-left: 200px;
-    margin-bottom: 200px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
 }
 .icon {
     margin: 5px;
@@ -273,6 +275,7 @@ h3{
 .justify_text{
     text-align: justify;
     width: 500px;
+    margin: 5px;
 }
 
 
