@@ -72,7 +72,7 @@ body {
 }
 .bottom__main {
     flex: 8;
-    background-color: lightgreen;
+    background-color: lightgray;
     display: flex;
     flex-direction: row;
     height: 100vh; /* Adjust the height as needed */
@@ -80,7 +80,7 @@ body {
 
 #project_name {
     flex: 3;
-    background-color: rgb(230, 230, 173); /* Optional: for visualization */
+    background-color: gainsboro; /* Optional: for visualization */
     
 }
 
@@ -93,7 +93,7 @@ body {
 
 .announcements {
     flex: 1;
-    background-color: lightgreen; /* Optional: for visualization */
+    background-color: lightgray;
 }
 .trending {
     flex: 1;
@@ -119,13 +119,11 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     border: 1px solid black;
-    width: 600px;
+    width: 550px;
 }
 
 .project{
-    height: 210px;
-    border: 1px solid blue;
-    margin: 5px;
+    margin: 2px;
 }
 .top_main {
     display: grid;
@@ -247,19 +245,19 @@ h{
     font-weight: bold;
 }
 h1{
-    font-size: 20px;
+    font-size: 15px;
     color: black;
     margin-left: 0px;
 }
 h3{
-    font-size: 30px;
+    font-size: 20px;
     color: black;
     margin-left: 0px;
     margin-top: 0;
 }
 
 .icon_container {
-    border: 1px solid blue;
+
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -276,6 +274,21 @@ h3{
     text-align: justify;
     width: 500px;
     margin: 5px;
+}
+
+.yellow_bar_and_project{
+    display: grid;
+    grid-template-columns: 1fr 50fr;
+    height: 200px;
+    border: 1px solid red;
+    margin:  10px;
+    background-color: white;
+}
+
+.yellow_bar{
+    background-color: yellow;
+    height: 200px;
+    width: 10px;
 }
 
 
