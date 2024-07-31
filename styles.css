@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
     display: flex;
@@ -56,17 +55,14 @@ body {
 .main {
     flex: 5;
     padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 .top_main {
     flex: 2;
-    background-color: rgb(174, 200, 200);
     height: 200px;
 
 }
@@ -80,24 +76,27 @@ body {
 
 #project_name {
     flex: 3;
-    background-color: gainsboro; /* Optional: for visualization */
     
 }
 
 .announcement_trending {
     flex: 1;
-    background-color: lightcoral; /* Optional: for visualization */
     display: flex;
     flex-direction: column;
+    padding-right: 20px;
 }
 
 .announcements {
     flex: 1;
-    background-color: lightgray;
+    background-color: white;
+    width: 300px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+
 }
 .trending {
     flex: 1;
-    background-color: lightyellow; /* Optional: for visualization */
+    background-color: lightgray; /* Optional: for visualization */
 }
 
 .projects-container {
@@ -110,7 +109,6 @@ body {
 .project_1_left{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    border: 1px solid black;
     width: 550px;
 
 }
@@ -118,7 +116,6 @@ body {
 .project_1_right{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    border: 1px solid black;
     width: 550px;
 }
 
@@ -251,8 +248,9 @@ h1{
 }
 h3{
     font-size: 20px;
+    font-weight: bold;
     color: black;
-    margin-left: 0px;
+    margin-left: 5px;
     margin-top: 0;
 }
 
@@ -280,7 +278,6 @@ h3{
     display: grid;
     grid-template-columns: 1fr 50fr;
     height: 200px;
-    border: 1px solid red;
     margin:  10px;
     background-color: white;
 }
@@ -289,6 +286,27 @@ h3{
     background-color: yellow;
     height: 200px;
     width: 10px;
+}
+
+.line{
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+}
+.trending_circular_image{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 20px;
+}
+
+.image_trendig img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+}
+
+.trending_background{
+    background-color: white;
 }
 
 
